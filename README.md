@@ -33,7 +33,7 @@ Dones and Todos:
 
 Saturday 7-1-23:
 
-Got light/dark mode button half-working. (Next time: get the text area changing too.)
+Got light/dark mode button working.
 
 Intention for now is just to get the basic functionality working before starting in on the fine-tuning for desktop/mobile display and usage etc.
 
