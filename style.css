@@ -22,7 +22,7 @@ body {
 /* ____________________________ */
 
 .menu-items {
-    height: 1rem;
+    height: 1.5rem;
     font-size: 80%;
     background-color: #767676;
     color: yellow;
@@ -30,8 +30,8 @@ body {
 }
 
 .menu-items button {
-    height: 0.8rem;
-    font-size: 0.6rem;
+    height: 1.3rem;
+    font-size: 0.8rem;
     background-color: #464646;
     color: white;
     cursor: pointer;
@@ -44,7 +44,7 @@ body {
 }
 
 .light-mode button {
-    background-color: bisque;
+    background-color: rgb(243, 239, 235);
     color: rgb(19, 17, 17);
     transition: 1s ease;
 }
@@ -64,4 +64,11 @@ textarea {
     background-color: #ebe8e8;
     color: black;
     transition: 1s ease;
+}
+
+.file-menu {
+    height: 30vh;
+    width: 20vw;
+    border: 1px green solid;
+    visibility: hidden;
 }
