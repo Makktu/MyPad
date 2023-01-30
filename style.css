@@ -29,7 +29,9 @@ body {
     transition: 1s ease;
 }
 
-.menu-items button {
+.menu-items button,
+select,
+option {
     height: 1.3rem;
     font-size: 0.8rem;
     background-color: #464646;
@@ -71,4 +73,14 @@ textarea {
     width: 20vw;
     border: 1px green solid;
     visibility: hidden;
+}
+
+#light-dark-btn {
+    float: right;
+    margin-right: 5px;
+}
+
+h3 {
+    display: inline-block;
+    text-align: center;
 }

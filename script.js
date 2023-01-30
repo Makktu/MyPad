@@ -25,15 +25,3 @@ lightDarkModeBtn.addEventListener("click", () => {
 fileBtn.addEventListener("click", () => {
     console.log("File clicked");
 });
-
-const getFakePerson = async () => {
-    try {
-        let res = await fetch("https://randomuser.me/api/");
-        let { results } = res.json();
-        console.log(">>", results);
-    } catch (error) {
-        console.error(error);
-    }
-};
-
-getFakePerson();
